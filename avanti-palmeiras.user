@@ -1,0 +1,13 @@
+// ==UserScript==
+// @name         Avanti Palmeiras Hack
+// @namespace    https://github.com/caiorogerio
+// @version      0.1
+// @description  Userscript for buying tickets at pre-sold
+// @author       Caio Rogerio
+// @match        https://www.futebolcard.com/*
+// @include      https://www.futebolcard.com/*
+// @run-at		 document-start
+// @grant        none
+// ==/UserScript==
+
+(window.history || {}).go = window.alert = function(){};
